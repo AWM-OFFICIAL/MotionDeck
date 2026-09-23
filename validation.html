@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MotionDeck Android Export Validation</title>
+    <style>
+      body {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        background: #0b0c0f;
+        color: #e8eaed;
+        padding: 24px;
+      }
+      #log {
+        white-space: pre-wrap;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Android export validation</h1>
+    <p>Running MotionDeck compositor + WebCodecs MP4 export against the emulator fixture…</p>
+    <pre id="log">starting…</pre>
+    <script type="module" src="/src/validation/runAndroidExportValidation.ts"></script>
+  </body>
+</html>
