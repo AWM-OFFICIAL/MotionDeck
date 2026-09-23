@@ -1,10 +1,14 @@
 # MotionDeck
 
-A beginner-friendly desktop motion-design tool for turning screen recordings into polished product demos.
-
 **Record. Arrange. Animate. Done.**
 
-MotionDeck is built by WAYYSTAR Technologies. The core editor runs in the browser and as a Tauri desktop app. Recordings and projects stay on your machine.
+MotionDeck is a beginner-friendly desktop motion-design tool that turns any screen recording, recorded or imported, into a cinematic app demo video. Add Auto Tap markers, phone frames, smart camera focus, and motion presets (fade, smooth zoom, focus) on a simple timeline, then export an MP4. No keyframe editor to learn.
+
+Free and open source (MIT). Runs as a Windows desktop app (Tauri) and in Chromium browsers. Recordings and projects stay on your machine.
+
+[Product page](https://wayystartechnologies.online/work/motiondeck) · Built by [WAYYSTAR Technologies](https://wayystartechnologies.online)
+
+![MotionDeck: turn screen recordings into cinematic app demos](docs/assets/motiondeck-cover.jpg)
 
 ## What it does
 
@@ -107,7 +111,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports: [SECURITY.md](SECURITY
 
 ## Credits
 
-MotionDeck is a WAYYSTAR Technologies project.
+MotionDeck is a [WAYYSTAR Technologies](https://wayystartechnologies.online) project. Learn more on the [MotionDeck product page](https://wayystartechnologies.online/work/motiondeck).
 
 ## License
 
