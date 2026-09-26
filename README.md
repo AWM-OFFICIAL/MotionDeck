@@ -2,9 +2,9 @@
 
 **Record. Arrange. Animate. Done.**
 
-MotionDeck is a beginner-friendly desktop motion-design tool that turns any screen recording, recorded or imported, into a cinematic app demo video. Add Auto Tap markers, phone frames, smart camera focus, and motion presets (fade, smooth zoom, focus) on a simple timeline, then export an MP4. No keyframe editor to learn.
+MotionDeck is a beginner-friendly desktop motion-design tool that turns a screen recording — recorded in the app or imported — into a polished product demo. Add tap markers, phone frames, camera focus, and motion presets on a simple timeline, then export an MP4. There is no keyframe editor to learn.
 
-Free and open source (MIT). Runs as a Windows desktop app (Tauri) and in Chromium browsers. Recordings and projects stay on your machine.
+Free and open source (MIT). Source: [github.com/AWM-OFFICIAL/MotionDeck](https://github.com/AWM-OFFICIAL/MotionDeck). Runs as a Windows desktop app (Tauri) and in Chromium browsers. Recordings and projects stay on your machine.
 
 [Product page](https://wayystartechnologies.online/work/motiondeck) · Built by [WAYYSTAR Technologies](https://wayystartechnologies.online)
 
@@ -82,7 +82,9 @@ npm run desktop:build
 | `npm run lint` | ESLint |
 | `npm run desktop` | Tauri development shell |
 | `npm run desktop:build` | Tauri production build |
-| `npm run validate:android-export` | Headless Android app-screen export check (needs Chrome or Edge, and the dev server or Vite) |
+| `npm run validate:android-export` | Headless Android app-screen export check (needs Chrome or Edge) |
+| `npm run validate:recorded-export` | Same compositor check with a recorded-style clip |
+| `npm run validate:stress-soak` | Builds 5- and 10-minute loop fixtures locally, then re-validates export |
 
 ## Export
 

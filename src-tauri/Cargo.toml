@@ -2,7 +2,7 @@
 name = "motiondeck"
 version = "0.1.0"
 description = "MotionDeck — professional app motion graphics without the complexity."
-authors = ["MotionDeck"]
+authors = ["WAYYSTAR Technologies"]
 edition = "2021"
 rust-version = "1.77.2"
 

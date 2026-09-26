@@ -4,7 +4,7 @@ MotionDeck is a local creative tool. It records the screen, reads video files yo
 
 ## Report a problem
 
-Open a GitHub security advisory on this repository if that feature is enabled. Otherwise open a private issue with the maintainers of the WAYYSTAR Technologies MotionDeck repository and wait for acknowledgement before posting details publicly.
+Prefer a [GitHub security advisory](https://github.com/AWM-OFFICIAL/MotionDeck/security/advisories/new) on [AWM-OFFICIAL/MotionDeck](https://github.com/AWM-OFFICIAL/MotionDeck). If advisories are unavailable, open a private issue and wait for acknowledgement before posting details publicly.
 
 Include:
 

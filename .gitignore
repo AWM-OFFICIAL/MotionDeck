@@ -45,3 +45,6 @@ coverage/
 *.mkv
 !public/fixtures/*.mp4
 !public/fixtures/*.webm
+# Loop-generated soak clips (scripts/stress-soak.mjs)
+public/fixtures/emulator-recording-5m.mp4
+public/fixtures/emulator-recording-10m.mp4

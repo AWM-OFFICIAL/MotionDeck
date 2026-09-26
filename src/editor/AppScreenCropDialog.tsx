@@ -449,6 +449,10 @@ export function AppScreenCropDialog({ open, layerId, onClose }: Props) {
           />
           {cropMode === 'tracked' && (
             <>
+              <p className="basis-full text-[11px] leading-snug text-[var(--color-ink-400)]">
+                Tracking matches the crop box across sampled frames. It is not optical flow. If the
+                emulator window moves, use Add correction or stay on Static and adjust the box by hand.
+              </p>
               <Button size="sm" onClick={() => void runTracking()} disabled={trackProgress !== null || !url}>
                 {track?.status === 'ready' ? 'Re-track' : 'Track App Screen'}
               </Button>

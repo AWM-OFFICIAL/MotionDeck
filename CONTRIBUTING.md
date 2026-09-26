@@ -2,6 +2,8 @@
 
 Thanks for looking at MotionDeck. The useful way to help is a focused change against the current editor, not a second implementation of the same feature.
 
+Clone [github.com/AWM-OFFICIAL/MotionDeck](https://github.com/AWM-OFFICIAL/MotionDeck).
+
 ## Setup
 
 ```bash

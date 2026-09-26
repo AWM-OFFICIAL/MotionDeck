@@ -40,10 +40,6 @@ impl CursorCapture {
         }
     }
 
-    pub fn is_running(&self) -> bool {
-        self.running.load(Ordering::SeqCst)
-    }
-
     /// Starts polling at `hz`. Returns false when a session is already running.
     pub fn start(&self, hz: u32) -> bool {
         if self.running.swap(true, Ordering::SeqCst) {

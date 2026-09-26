@@ -45,6 +45,27 @@ describe('motion presets', () => {
     expect(cats.has('premium')).toBe(true);
   });
 
+  it('every preset patches implemented motion ids', () => {
+    const layer = createTextLayer('Hi', 0, 3);
+    for (const preset of MOTION_PRESETS) {
+      const next = applyMotionPreset(defaultMotion(), preset);
+      expect(next.entrance).toBeTruthy();
+      expect(next.idle).toBeTruthy();
+      expect(next.exit).toBeTruthy();
+      const start = resolveLayerTransform(
+        { ...layer, motion: next },
+        0,
+        { canvasWidth: 1920, canvasHeight: 1080 },
+      );
+      const mid = resolveLayerTransform(
+        { ...layer, motion: next },
+        0.4,
+        { canvasWidth: 1920, canvasHeight: 1080 },
+      );
+      expect(Number.isFinite(start.opacity + start.scale + start.x + mid.opacity)).toBe(true);
+    }
+  });
+
   it('suggests product-demo presets for video', () => {
     const layer = createVideoLayer('asset', { duration: 5 });
     const suggested = suggestMotion(layer);

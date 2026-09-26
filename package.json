@@ -6,6 +6,14 @@
   "description": "MotionDeck — a beginner-friendly desktop motion-design tool by WAYYSTAR Technologies.",
   "author": "WAYYSTAR Technologies",
   "license": "MIT",
+  "homepage": "https://github.com/AWM-OFFICIAL/MotionDeck",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AWM-OFFICIAL/MotionDeck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AWM-OFFICIAL/MotionDeck/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
